@@ -1,7 +1,7 @@
 {
   "name": "load-perf",
   "version": "0.1.0",
-  "description": "Performance analysis",
+  "description": "Check load performance of your module and its dependencies",
   "license": "MIT",
   "repository": "https://github.com/gyandeeps/load-perf",
   "main": "./lib/index.js",
@@ -41,5 +41,10 @@
     "lib",
     "bin"
   ],
-  "keywords": []
+  "keywords": [
+    "performance",
+    "perf",
+    "load",
+    "load perf"
+  ]
 }

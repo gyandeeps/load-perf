@@ -20,7 +20,7 @@ Key points:
 Just install the module
 
 ```sh
-npm install load-perf
+npm install load-perf -g
 ```
 
 Then just run the module on your project or module
