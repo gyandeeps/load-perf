@@ -1,6 +1,6 @@
 {
   "name": "load-perf",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Performance analysis",
   "license": "MIT",
   "repository": "https://github.com/gyandeeps/load-perf",
