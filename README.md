@@ -6,7 +6,14 @@ load-perf
 
 ## Idea
 
-Main idea here is to measure the load(require) time for dependencies and devDependencies for your project or module. we also calculate the load(require) time of your module also.
+Main idea here is to measure the load(require) time for dependencies and devDependencies for your project or module. we also calculate the load(require) time of your module.
+This give an idea about how much time would it take for your module to be required by the consumer.
+
+Key points:
+
+* Measure load performance of your module when its required
+* Measure load performance of your dependencies
+* Measure load performance of your devDependencies
 
 ## How to use
 
