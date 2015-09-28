@@ -1,0 +1,5 @@
+node_modules/**
+lib/plugins/**
+lib/public/js/jasmineBoot.js
+lib/public/js/vendor/**
+tests/resources/**
