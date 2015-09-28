@@ -9,7 +9,6 @@ var nodeCli = require("shelljs-nodecli");
 var jsTestFiles = find("tests/").filter(fileType("js")).join(" ");
 var nodeModules = "./node_modules/";
 var mocha = nodeModules + "mocha/bin/_mocha ";
-var idealPlugin = require("./index");
 var path = require("path");
 
 /* eslint-enable vars-on-top */
