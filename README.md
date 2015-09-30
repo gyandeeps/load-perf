@@ -36,6 +36,7 @@ load-perf
   -v, --version               Outputs the version number.
   -p, --package path::String  Package json file path. - default: ./package.json
   -d, --checkDevDependencies  Perf calculation for devDependencies. - default: false
+  --no-checkDependencies      Perf calculation for dependencies. - default: true
 ```
 
 ## Output Example
