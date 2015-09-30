@@ -1,6 +1,6 @@
 {
   "name": "load-perf",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Check load performance of your module and its dependencies",
   "license": "MIT",
   "repository": "https://github.com/gyandeeps/load-perf",
