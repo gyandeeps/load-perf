@@ -39,6 +39,24 @@ load-perf
   --no-checkDependencies      Perf calculation for dependencies. - default: true
 ```
 
+## NodeJs API
+
+You can consume this module programmatically through the Node.js API also.
+
+```js
+var loadPerf = require("load-perf");
+
+var defaultOptions = {
+    package: "./package.json",
+    checkDevDependencies: false,
+    checkDependencies: true
+};
+
+var performanceData = loadPerf(defaultOptions);
+```
+
+Even if the options are not supplied to the function, we will use the defaults.
+
 ## Output Example
 
 All times are in `ms`.
